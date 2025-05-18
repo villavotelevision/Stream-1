@@ -2,7 +2,7 @@
 
 # Configuración de variables
 VIDEO_FILE="${VIDEO_FILE:-rickroll.mp4}"
-YOUTUBE_KEY="${YOUTUBE_KEY:-wv5f-kxt7-aars-mr7e-byht}"
+YOUTUBE_KEY="${YOUTUBE_KEY:-your_youtube_code}"
 SERVER_PORT="${PORT:-8080}"
 
 # Instalar dependencias necesarias
