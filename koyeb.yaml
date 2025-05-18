@@ -1,0 +1,16 @@
+name: youtube-loop-streamer
+services:
+  - type: web
+    name: streamer
+    runtime: docker
+    dockerfile: Dockerfile
+    ports:
+      - port: 8080
+        http: public
+    env:
+      - key: YOUTUBE_KEY
+        value: your-youtube-key
+      - key: VIDEO_FILE
+        value: rickroll.mp4
+      - key: PORT
+        value: 8080
